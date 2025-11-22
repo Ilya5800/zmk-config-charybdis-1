@@ -7,7 +7,38 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    chosen { zmk,physical-layout = &charybdis_6col_layout; };
+    chosen { 
+        zmk,physical-layout = &charybdis_6col_layout;
+        zmk,pointer = &pmw3360; // Добавляем указание на трекбол
+    };
+};
+
+// Добавляем конфигурацию для трекбола
+&pmw3360 {
+    status = "okay";
+    // Настройки чувствительности
+    cpi = <800>;
+    scroll-layer-enable; // Включаем автоматический скролл в слое SCROLL
+};
+
+// Поведение для скролла
+/ {
+    behaviors {
+        scroll_toggle: scroll_toggle {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&scroll_toggle_layer>;
+        };
+        
+        scroll_toggle_layer: scroll_toggle_layer {
+            compatible = "zmk,behavior-layer-tap";
+            #binding-cells = <0>;
+            bindings = <&to>;
+            layer = <SCROLL>;
+        };
+    };
 };
 
 &mt {
@@ -146,7 +177,6 @@
 
   keymap {
     compatible = "zmk,keymap";
-
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
 //    0             1             2             3             4             5                 6             7             8             9            10            11
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
