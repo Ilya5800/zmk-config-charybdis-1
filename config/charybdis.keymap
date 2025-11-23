@@ -189,7 +189,7 @@
 &kp TAB         &kp Q        &kp W        &kp E         &kp R          &kp T                  &kp Y  &kp U               &kp I             &kp O              &kp P           &kp BSLH
 &kp GLOBE       &kp A        &kp S        &kp D         &kp F          &kp G                  &kp H  &kp J               &kp K             &kp L              &kp SEMI        &kp SQT
 &kp LEFT_SHIFT  &hml LGUI Z  &hml LALT X  &hml LCTRL C  &hml LSHIFT V  &kp B                  &kp N  &hmr RSHIFT M       &hmr RCTRL COMMA  &hmr RALT DOT      &hmr RGUI FSLH  &hmr RIGHT_SHIFT LEFT_BRACKET
-                &kp LALT     &mo LOWER    &mo POINTER   &gui_ctrlb     &kp LCTRL  &kp RETURN         &blt SYMBOLS SPACE                    &blt RAISE RETURN
+                &kp LALT     &mo LOWER    &mo POINTER   &kp RETURN     &kp LCTRL  &kp RETURN         &blt SYMBOLS SPACE                    &blt RAISE RETURN
             >;
         };
 
@@ -233,11 +233,11 @@
             label = "SYMBOLS";
             display-name = "Symbols";
             bindings = <
-&kp GRAVE  &trans     &trans     &trans     &trans     &trans     &trans             &trans     &trans    &trans    &trans     &trans
-&kp TILDE  &kp SQT    &kp LT     &kp GT     &kp DQT    &kp DOT            &kp COMMA  &kp AMPS   &kp LBKT  &kp RBKT  &kp PRCNT  &kp RET
-&trans     &kp EXCL   &kp MINUS  &kp PLUS   &kp EQUAL  &kp UNDER          &kp PIPE   &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK  &trans
-&trans     &kp CARET  &kp FSLH   &kp ASTRK  &kp BSLH   &kp HASH           &kp TILDE  &kp DLLR   &kp LBRC  &kp RBRC  &kp AT     &trans
-           &trans     &trans     &trans     &trans     &trans     &trans             &trans               &trans
+&kp GRAVE  &trans     &trans     &trans     &trans             &trans     &trans             &trans     &trans    &trans    &trans     &trans
+&kp TILDE  &kp SQT    &kp LT     &kp GT     &kp DQT            &kp DOT            &kp COMMA  &kp AMPS   &kp LBKT  &kp RBKT  &kp PRCNT  &kp RET
+&trans     &kp EXCL   &kp MINUS  &kp PLUS   &kp EQUAL          &kp UNDER          &kp PIPE   &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK  &trans
+&trans     &kp CARET  &kp FSLH   &kp ASTRK  &kp BSLH           &kp HASH           &kp TILDE  &kp DLLR   &kp LBRC  &kp RBRC  &kp AT     &trans
+           &trans     &trans     &trans     &kp RIGHT_BRACKET  &trans     &trans             &trans               &trans
             >;
         };
 
