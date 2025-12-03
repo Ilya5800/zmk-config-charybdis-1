@@ -197,11 +197,11 @@
             label = "POINTER";
             display-name = "Pointer";
             bindings = <
-&kp GRAVE       &kp F1            &kp F2     &kp F3           &kp F4           &kp F5      &kp F6                   &kp F7       &kp F8     &kp F9     &kp F10    &trans
-&kp LA(TAB)     &kp LGUI          &kp LALT   &msc MOVE_X(15)  &msc MOVE_Y(15)  &mkp MB5            &kp HOME         &kp UP       &kp PG_UP  &kp END    &kp F11    &kp F12
-&kp RCTRL       &kp LEFT_CONTROL  &kp TAB    &mkp RCLK        &mkp LCLK        &mkp MCLK           &kp LEFT         &kp DOWN     &kp RIGHT  &kp RIGHT  &kp MINUS  &kp EQUAL
-&kp LEFT_SHIFT  &kp LG(Z)         &kp LG(X)  &kp LG(C)        &kp LG(V)        &mo SCROLL          &kp RC(LS(TAB))  &kp LC(TAB)  &kp INS    &kp INS    &kp LBKT   &kp RBKT
-                &trans            &trans     &trans           &trans           &trans      &trans                   &trans                  &trans
+&kp GRAVE       &kp F1            &kp F2     &kp F3           &kp F4           &kp F5      &kp F6                   &kp F7          &kp F8          &kp F9     &kp F10    &trans
+&kp LA(TAB)     &kp LGUI          &kp LALT   &msc MOVE_X(15)  &msc MOVE_Y(15)  &mkp MB5            &kp HOME         &kp UP          &kp UP_ARROW    &kp END    &kp F11    &kp F12
+&kp RCTRL       &kp LEFT_CONTROL  &kp TAB    &mkp RCLK        &mkp LCLK        &mkp MCLK           &kp LEFT         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp MINUS  &kp EQUAL
+&kp LEFT_SHIFT  &kp LG(Z)         &kp LG(X)  &kp LG(C)        &kp LG(V)        &mo SCROLL          &kp RC(LS(TAB))  &kp LC(TAB)     &kp INS         &kp INS    &kp LBKT   &kp RBKT
+                &trans            &trans     &trans           &trans           &trans      &trans                   &trans                          &trans
             >;
         };
 
@@ -224,7 +224,7 @@
 &kp ESC  &kp F1            &kp F2        &kp F3        &kp F4        &kp F5         &kp F6                    &kp F7  &kp F8  &kp F9  &kp F10            &trans
 &trans   &kp LEFT_COMMAND  &kp NUMBER_1  &kp NUMBER_2  &kp N3        &kp LG(EQUAL)          &bt BT_SEL 0      &kp F1  &kp F2  &kp F3  &kp F11            &kp F12
 &trans   &kp LEFT_SHIFT    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LG(N0)             &kp LEFT_COMMAND  &kp F4  &kp F5  &kp F6  &kp K_VOLUME_UP    &kp F10
-&trans   &none             &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0           &bt BT_CLR        &kp F7  &kp F8  &kp F9  &kp K_VOLUME_DOWN  &none
+&trans   &kp LEFT_ALT      &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0           &bt BT_CLR        &kp F7  &kp F8  &kp F9  &kp K_VOLUME_DOWN  &none
          &trans            &trans        &trans        &trans        &trans         &trans                    &trans          &trans
             >;
         };
