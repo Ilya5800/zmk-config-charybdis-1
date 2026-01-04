@@ -200,7 +200,7 @@
 &kp GRAVE       &kp F1         &kp F2             &kp F3       &kp F4                &kp F5     &kp F6               &kp F7            &kp F8          &kp F9      &kp F10      &trans
 &kp LA(RG(A))   &kp LS(LG(S))  &kp LA(LC(SLASH))  &kp LS(END)  &kp LS(LEFT_CONTROL)  &mkp MB5           &kp HOME     &kp LS(F6)        &kp UP_ARROW    &kp END     &kp LA(F12)  &kp F12
 &kp LEFT_SHIFT  &kp LEFT_ALT   &kp TAB            &mkp RCLK    &mkp LCLK             &mkp MCLK          &kp LC(SQT)  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT   &kp MINUS    &kp EQUAL
-&kp LEFT_SHIFT  &kp LC(Z)      &kp LC(X)          &kp LC(C)    &kp LC(V)             &mo 5              &kp RETURN   &kp LC(LS(TAB))   &kp LC(TAB)     &kp DELETE  &kp LBKT     &kp RBKT
+&kp PAGE_UP     &kp LC(Z)      &kp LC(X)          &kp LC(C)    &kp LC(V)             &mo 5              &kp RETURN   &kp LC(LS(TAB))   &kp LC(TAB)     &kp DELETE  &kp LBKT     &kp RBKT
                 &trans         &trans             &trans       &trans                &trans     &trans               &kp LEFT_CONTROL                  &trans
             >;
         };
