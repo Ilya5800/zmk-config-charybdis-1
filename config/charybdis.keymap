@@ -222,7 +222,7 @@
             display-name = "Symbols";
             bindings = <
 &kp GRAVE  &trans     &trans         &trans         &trans             &trans     &trans             &trans     &trans    &trans    &trans     &trans
-&kp TILDE  &kp SQT    &kp MINUS      &kp MINUS      &kp DQT            &kp DOT            &kp COMMA  &kp AMPS   &kp LBKT  &kp RBKT  &kp PRCNT  &kp RET
+&kp TILDE  &kp SQT    &kp PLUS       &kp MINUS      &kp DQT            &kp DOT            &kp COMMA  &kp AMPS   &kp LBKT  &kp RBKT  &kp PRCNT  &kp RET
 &trans     &kp EXCL   &kp LESS_THAN  &kp GT         &kp EQUAL          &kp UNDER          &kp PIPE   &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK  &trans
 &trans     &kp CARET  &kp FSLH       &kp ASTRK      &kp BSLH           &kp HASH           &kp TILDE  &kp DLLR   &kp LBRC  &kp RBRC  &kp AT     &trans
            &trans     &trans         &blt 1 RETURN  &kp RIGHT_BRACKET  &trans     &trans             &trans               &trans
